@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConfigSections", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.SimpleConfigSections", "Tests.SimpleConfigSections\Tests.SimpleConfigSections.csproj", "{D809566F-8E89-41DB-BD45-68CD6A0BE9F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConfigSections.NUnitTests", "SimpleConfigSections.Tests\SimpleConfigSections.NUnitTests.csproj", "{5CA89C3D-2993-478B-8C2E-7D227D4EDA1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConfigSections.NUnitTests", "SimpleConfigSections.NUnitTests\SimpleConfigSections.NUnitTests.csproj", "{5CA89C3D-2993-478B-8C2E-7D227D4EDA1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
