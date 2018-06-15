@@ -9,5 +9,9 @@ Tests.SimpleConfigSections/*/Debug
 Tests.SimpleConfigSections/*/Release
 Tests.SimpleConfigSections/obj
 Tests.SimpleConfigSections/*/Nuget
+SimpleConfigSections.NUnitTests/*/Debug
+SimpleConfigSections.NUnitTests/*/Release
+SimpleConfigSections.NUnitTests/obj
+SimpleConfigSections.NUnitTests/*/Nuget
 nugetpackage/*.nupkg
 nugetpackage/lib/net35/*
