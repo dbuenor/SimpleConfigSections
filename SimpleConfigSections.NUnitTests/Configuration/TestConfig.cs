@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimpleConfigSections.Tests.BusinessLogic;
+using System;
 using System.ComponentModel;
 using System.Globalization;
 using System.Text;
@@ -39,11 +40,23 @@ namespace SimpleConfigSections.Tests.Configuration
 		CultureInfo CultureInfoB { get; set; }
 	}
 
+	public interface CustomTypeConfig
+	{
+		[DefaultValue("A")]
+		[TypeConverter(typeof(CustomTypeConverter))]
+		CustomType TypeA { get; set; }
+
+		[DefaultValue("A")]
+		[TypeConverter(typeof(CustomTypeConverter))]
+		CustomType TypeB { get; set; }
+	}
+
 	public interface TestConfig
 	{
 		EncodingConfig Encodings { get; set; }
 		TimeSpanConfig TimeSpans { get; set; }
 		CultureInfoConfig CultureInfos { get; set; }
+		CustomTypeConfig CustomTypes { get; set; }
 	}
 	#endregion
 

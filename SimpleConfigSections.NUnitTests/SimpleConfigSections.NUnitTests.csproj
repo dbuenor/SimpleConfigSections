@@ -57,6 +57,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogic\CustomType\CustomType.cs" />
+    <Compile Include="BusinessLogic\System.ComponentModel\CustomTypeConverter.cs" />
     <Compile Include="BusinessLogic\System.ComponentModel\EncodingConverter.cs" />
     <Compile Include="ConfigBuilderTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -67,6 +69,7 @@
     <None Include="packages.config" />
     <Content Include="test.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup />
